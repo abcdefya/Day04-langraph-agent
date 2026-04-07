@@ -1,0 +1,210 @@
+{"timestamp": "2026-04-07T08:18:50.118359", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 566, "latency_ms": 966, "cost_estimate": 0.005659999999999999}}
+{"timestamp": "2026-04-07T08:19:39.601698", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 704, "latency_ms": 1476, "cost_estimate": 0.007039999999999999}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:22:40.926320", "event": "DIRECT_RESPONSE", "data": {"content": "Tôi được trang bị các công cụ sau:\n\n1. **Tìm kiếm chuyến bay**: Tôi có thể tìm kiếm chuyến bay giữa ..."}}
+{"timestamp": "2026-04-07T08:22:40.927303", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 704, "latency_ms": 1301, "cost_estimate": 0.007039999999999999}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Hồ Chí Minh', 'origin': 'Hà Nội'}
+{"timestamp": "2026-04-07T08:23:24.033077", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Hồ Chí Minh", "origin": "Hà Nội"}, "latency_ms": 1823}}
+{"timestamp": "2026-04-07T08:23:24.033077", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 498, "latency_ms": 1823, "cost_estimate": 0.00498}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Đà Nẵng', 'origin': 'Hà Nội'}
+{"timestamp": "2026-04-07T08:23:24.348251", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Đà Nẵng", "origin": "Hà Nội"}, "latency_ms": 309}}
+{"timestamp": "2026-04-07T08:23:24.348251", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 653, "latency_ms": 309, "cost_estimate": 0.00653}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Nha Trang', 'origin': 'Hà Nội'}
+{"timestamp": "2026-04-07T08:23:24.737276", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Nha Trang", "origin": "Hà Nội"}, "latency_ms": 384}}
+{"timestamp": "2026-04-07T08:23:24.737276", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 807, "latency_ms": 384, "cost_estimate": 0.00807}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Phú Quốc', 'origin': 'Hà Nội'}
+{"timestamp": "2026-04-07T08:23:25.388496", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Phú Quốc", "origin": "Hà Nội"}, "latency_ms": 646}}
+{"timestamp": "2026-04-07T08:23:25.389503", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 854, "latency_ms": 646, "cost_estimate": 0.00854}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Hà Nội', 'origin': 'Hồ Chí Minh'}
+{"timestamp": "2026-04-07T08:23:25.849757", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Hà Nội", "origin": "Hồ Chí Minh"}, "latency_ms": 456}}
+{"timestamp": "2026-04-07T08:23:25.850756", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 985, "latency_ms": 456, "cost_estimate": 0.00985}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Đà Lạt', 'origin': 'Hà Nội'}
+{"timestamp": "2026-04-07T08:23:26.370206", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Đà Lạt", "origin": "Hà Nội"}, "latency_ms": 515}}
+{"timestamp": "2026-04-07T08:23:26.370206", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1141, "latency_ms": 515, "cost_estimate": 0.01141}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Hội An', 'origin': 'Hà Nội'}
+{"timestamp": "2026-04-07T08:23:27.108866", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Hội An", "origin": "Hà Nội"}, "latency_ms": 734}}
+{"timestamp": "2026-04-07T08:23:27.108866", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1189, "latency_ms": 734, "cost_estimate": 0.011890000000000001}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Nha Trang', 'origin': 'Hồ Chí Minh'}
+{"timestamp": "2026-04-07T08:23:27.496338", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Nha Trang", "origin": "Hồ Chí Minh"}, "latency_ms": 384}}
+{"timestamp": "2026-04-07T08:23:27.497340", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1237, "latency_ms": 384, "cost_estimate": 0.01237}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Phú Quốc', 'origin': 'Hồ Chí Minh'}
+{"timestamp": "2026-04-07T08:23:28.308328", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Phú Quốc", "origin": "Hồ Chí Minh"}, "latency_ms": 806}}
+{"timestamp": "2026-04-07T08:23:28.308328", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1286, "latency_ms": 806, "cost_estimate": 0.01286}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Đà Nẵng', 'origin': 'Hồ Chí Minh'}
+{"timestamp": "2026-04-07T08:23:28.750976", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Đà Nẵng", "origin": "Hồ Chí Minh"}, "latency_ms": 439}}
+{"timestamp": "2026-04-07T08:23:28.750976", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1387, "latency_ms": 439, "cost_estimate": 0.01387}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Hà Nội', 'origin': 'Đà Nẵng'}
+{"timestamp": "2026-04-07T08:23:29.130784", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Hà Nội", "origin": "Đà Nẵng"}, "latency_ms": 376}}
+{"timestamp": "2026-04-07T08:23:29.131818", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1487, "latency_ms": 376, "cost_estimate": 0.014870000000000001}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Hồ Chí Minh', 'origin': 'Đà Nẵng'}
+{"timestamp": "2026-04-07T08:23:32.260855", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Hồ Chí Minh", "origin": "Đà Nẵng"}, "latency_ms": 3124}}
+{"timestamp": "2026-04-07T08:23:32.260855", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1642, "latency_ms": 3124, "cost_estimate": 0.01642}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Nha Trang', 'origin': 'Đà Nẵng'}
+{"timestamp": "2026-04-07T08:23:39.984196", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Nha Trang", "origin": "Đà Nẵng"}, "latency_ms": 7720}}
+{"timestamp": "2026-04-07T08:23:39.984196", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1742, "latency_ms": 7720, "cost_estimate": 0.01742}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Phú Quốc', 'origin': 'Đà Nẵng'}
+{"timestamp": "2026-04-07T08:23:48.308519", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Phú Quốc", "origin": "Đà Nẵng"}, "latency_ms": 8318}}
+{"timestamp": "2026-04-07T08:23:48.308519", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1789, "latency_ms": 8318, "cost_estimate": 0.01789}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Hội An', 'origin': 'Đà Nẵng'}
+{"timestamp": "2026-04-07T08:23:58.168744", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Hội An", "origin": "Đà Nẵng"}, "latency_ms": 9854}}
+{"timestamp": "2026-04-07T08:23:58.168744", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1836, "latency_ms": 9854, "cost_estimate": 0.01836}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Đà Lạt', 'origin': 'Đà Nẵng'}
+{"timestamp": "2026-04-07T08:24:08.700146", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Đà Lạt", "origin": "Đà Nẵng"}, "latency_ms": 10528}}
+{"timestamp": "2026-04-07T08:24:08.700146", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1884, "latency_ms": 10528, "cost_estimate": 0.01884}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Hà Nội', 'origin': 'Nha Trang'}
+{"timestamp": "2026-04-07T08:24:17.396518", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Hà Nội", "origin": "Nha Trang"}, "latency_ms": 8692}}
+{"timestamp": "2026-04-07T08:24:17.398230", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1932, "latency_ms": 8692, "cost_estimate": 0.01932}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Hồ Chí Minh', 'origin': 'Nha Trang'}
+{"timestamp": "2026-04-07T08:24:27.313327", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Hồ Chí Minh", "origin": "Nha Trang"}, "latency_ms": 9911}}
+{"timestamp": "2026-04-07T08:24:27.314654", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1980, "latency_ms": 9911, "cost_estimate": 0.0198}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Đà Nẵng', 'origin': 'Nha Trang'}
+{"timestamp": "2026-04-07T08:24:38.657308", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Đà Nẵng", "origin": "Nha Trang"}, "latency_ms": 11338}}
+{"timestamp": "2026-04-07T08:24:38.657308", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 2028, "latency_ms": 11338, "cost_estimate": 0.02028}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Phú Quốc', 'origin': 'Nha Trang'}
+{"timestamp": "2026-04-07T08:24:48.610275", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Phú Quốc", "origin": "Nha Trang"}, "latency_ms": 9948}}
+{"timestamp": "2026-04-07T08:24:48.610275", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 2075, "latency_ms": 9948, "cost_estimate": 0.02075}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Hội An', 'origin': 'Nha Trang'}
+{"timestamp": "2026-04-07T08:24:58.772660", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Hội An", "origin": "Nha Trang"}, "latency_ms": 10158}}
+{"timestamp": "2026-04-07T08:24:58.772660", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 2122, "latency_ms": 10158, "cost_estimate": 0.02122}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Đà Lạt', 'origin': 'Nha Trang'}
+{"timestamp": "2026-04-07T08:25:09.628916", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Đà Lạt", "origin": "Nha Trang"}, "latency_ms": 10852}}
+{"timestamp": "2026-04-07T08:25:09.629925", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 2170, "latency_ms": 10852, "cost_estimate": 0.0217}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Hà Nội', 'origin': 'Phú Quốc'}
+{"timestamp": "2026-04-07T08:25:20.783464", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Hà Nội", "origin": "Phú Quốc"}, "latency_ms": 11150}}
+{"timestamp": "2026-04-07T08:25:20.785215", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 2218, "latency_ms": 11150, "cost_estimate": 0.022180000000000002}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Hồ Chí Minh', 'origin': 'Phú Quốc'}
+{"timestamp": "2026-04-07T08:25:33.961236", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Hồ Chí Minh", "origin": "Phú Quốc"}, "latency_ms": 13170}}
+{"timestamp": "2026-04-07T08:25:33.962459", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 2349, "latency_ms": 13170, "cost_estimate": 0.023490000000000004}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Đà Nẵng', 'origin': 'Phú Quốc'}
+{"timestamp": "2026-04-07T08:25:45.437083", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Đà Nẵng", "origin": "Phú Quốc"}, "latency_ms": 11471}}
+{"timestamp": "2026-04-07T08:25:45.438085", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 2449, "latency_ms": 11471, "cost_estimate": 0.024489999999999998}}
+🛠️ Agent quyết định gọi Tool: search_flights với tham số {'destination': 'Nha Trang', 'origin': 'Phú Quốc'}
+{"timestamp": "2026-04-07T08:25:57.532713", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Nha Trang", "origin": "Phú Quốc"}, "latency_ms": 12089}}
+{"timestamp": "2026-04-07T08:25:57.532713", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 2496, "latency_ms": 12089, "cost_estimate": 0.02496}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:26:21.797319", "event": "DIRECT_RESPONSE", "data": {"content": "Xin chào! Tôi có thể giúp gì cho bạn không?..."}}
+{"timestamp": "2026-04-07T08:26:21.798315", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 484, "latency_ms": 856, "cost_estimate": 0.00484}}
+❌ Không tìm thấy file prompt tại: D:\work\code practice\VinAI_26K\Day04-langraph-agent\src\..\..\system_prompt.md
+Traceback (most recent call last):
+  File "D:\work\code practice\VinAI_26K\Day04-langraph-agent\src\graph.py", line 86, in agent_node
+    with open(prompt_path, "r", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\work\\code practice\\VinAI_26K\\Day04-langraph-agent\\src\\..\\..\\system_prompt.md'
+🛠️ Đã inject System Prompt vào luồng hội thoại.
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:29:58.358331", "event": "DIRECT_RESPONSE", "data": {"content": "Xin chào! Tôi là TravelBuddy, trợ lý du lịch của bạn. Tôi có thể giúp bạn tìm kiếm chuyến bay, khách..."}}
+{"timestamp": "2026-04-07T08:29:58.359888", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 536, "latency_ms": 882, "cost_estimate": 0.00536}}
+❌ Không tìm thấy file prompt tại: D:\work\code practice\VinAI_26K\Day04-langraph-agent\src\..\..\system_prompt.txt
+Traceback (most recent call last):
+  File "D:\work\code practice\VinAI_26K\Day04-langraph-agent\src\graph.py", line 86, in agent_node
+    with open(prompt_path, "r", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\work\\code practice\\VinAI_26K\\Day04-langraph-agent\\src\\..\\..\\system_prompt.txt'
+🛠️ Đã inject System Prompt vào luồng hội thoại.
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:30:37.303157", "event": "DIRECT_RESPONSE", "data": {"content": "Xin chào! Tôi là TravelBuddy, trợ lý du lịch của bạn. Tôi có thể giúp bạn tìm kiếm chuyến bay, khách..."}}
+{"timestamp": "2026-04-07T08:30:37.303157", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 535, "latency_ms": 991, "cost_estimate": 0.005350000000000001}}
+❌ Không tìm thấy file prompt tại: D:\work\code practice\VinAI_26K\Day04-langraph-agent\src\..\..\system_prompt.txt
+Traceback (most recent call last):
+  File "D:\work\code practice\VinAI_26K\Day04-langraph-agent\src\graph.py", line 86, in agent_node
+    with open(prompt_path, "r", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\work\\code practice\\VinAI_26K\\Day04-langraph-agent\\src\\..\\..\\system_prompt.txt'
+🛠️ Đã inject System Prompt vào luồng hội thoại.
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:31:16.596568", "event": "DIRECT_RESPONSE", "data": {"content": "Xin chào! Tôi là TravelBuddy, trợ lý du lịch của bạn. Tôi có thể giúp bạn tìm kiếm chuyến bay, khách..."}}
+{"timestamp": "2026-04-07T08:31:16.597568", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 530, "latency_ms": 757, "cost_estimate": 0.0053}}
+❌ Không tìm thấy file prompt tại: D:\work\code practice\VinAI_26K\Day04-langraph-agent\src\..\..\system_prompt.txt
+Traceback (most recent call last):
+  File "D:\work\code practice\VinAI_26K\Day04-langraph-agent\src\graph.py", line 86, in agent_node
+    with open(prompt_path, "r", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\work\\code practice\\VinAI_26K\\Day04-langraph-agent\\src\\..\\..\\system_prompt.txt'
+🛠️ Đã inject System Prompt vào luồng hội thoại.
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:31:47.398749", "event": "DIRECT_RESPONSE", "data": {"content": "Xin chào! Tôi là TravelBuddy, trợ lý du lịch của bạn. Tôi có thể giúp bạn tìm kiếm chuyến bay, khách..."}}
+{"timestamp": "2026-04-07T08:31:47.399762", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 528, "latency_ms": 873, "cost_estimate": 0.00528}}
+🛠️ Đã inject System Prompt vào luồng hội thoại.
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:31:59.123833", "event": "DIRECT_RESPONSE", "data": {"content": "Xin chào! Tôi là trợ lý du lịch của TravelBuddy, một công ty chuyên tư vấn và hỗ trợ khách hàng tron..."}}
+{"timestamp": "2026-04-07T08:31:59.123833", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1090, "latency_ms": 2013, "cost_estimate": 0.010900000000000002}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:43:40.752257", "event": "DIRECT_RESPONSE", "data": {"content": "Xin chào! Tôi là trợ lý du lịch của TravelBuddy. Tôi rất vui được hỗ trợ bạn trong việc tìm kiếm thô..."}}
+{"timestamp": "2026-04-07T08:43:40.752257", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1074, "latency_ms": 874, "cost_estimate": 0.010740000000000001}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:44:33.318302", "event": "DIRECT_RESPONSE", "data": {"content": "Xin lỗi, nhưng tôi không thể cung cấp thông tin về tình hình chiến tranh Trung Đông vì nó không liên..."}}
+{"timestamp": "2026-04-07T08:44:33.318302", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1057, "latency_ms": 869, "cost_estimate": 0.01057}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:47:51.208585", "event": "DIRECT_RESPONSE", "data": {"content": "Xin chào! Tôi rất vui được giúp bạn lên kế hoạch cho chuyến du lịch của mình. Tuy nhiên, để có thể t..."}}
+{"timestamp": "2026-04-07T08:47:51.208585", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 998, "latency_ms": 867, "cost_estimate": 0.009980000000000001}}
+🔧 Agent quyết định gọi Tool: search_flights với tham số: {'destination': 'Đà Nẵng', 'origin': 'Hà Nội'}
+{"timestamp": "2026-04-07T08:48:26.275460", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Đà Nẵng", "origin": "Hà Nội"}, "latency_ms": 494}}
+{"timestamp": "2026-04-07T08:48:26.275460", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 930, "latency_ms": 494, "cost_estimate": 0.009300000000000001}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:48:26.856947", "event": "DIRECT_RESPONSE", "data": {"content": "Để tìm khách sạn tại Đà Nẵng, tôi cần biết ngân sách của bạn cho mỗi đêm. Bạn có thể cho tôi biết ng..."}}
+{"timestamp": "2026-04-07T08:48:26.856947", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1091, "latency_ms": 573, "cost_estimate": 0.01091}}
+🔧 Agent quyết định gọi Tool: search_flights với tham số: {'destination': 'Phú Quốc', 'origin': 'Hà Nội'}
+{"timestamp": "2026-04-07T08:49:26.374586", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Phú Quốc", "origin": "Hà Nội"}, "latency_ms": 990}}
+{"timestamp": "2026-04-07T08:49:26.374586", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 961, "latency_ms": 990, "cost_estimate": 0.00961}}
+🔧 Agent quyết định gọi Tool: search_hotels với tham số: {'city': 'Phơ Quốc', 'max_price_per_night': 1100000}
+{"timestamp": "2026-04-07T08:49:27.499914", "event": "TOOL_CALL", "data": {"tool": "search_hotels", "arguments": {"city": "Phơ Quốc", "max_price_per_night": 1100000}, "latency_ms": 1120}}
+{"timestamp": "2026-04-07T08:49:27.499914", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1174, "latency_ms": 1120, "cost_estimate": 0.01174}}
+🔧 Agent quyết định gọi Tool: search_hotels với tham số: {'city': 'Phú Quốc', 'max_price_per_night': 1100000}
+{"timestamp": "2026-04-07T08:49:28.081086", "event": "TOOL_CALL", "data": {"tool": "search_hotels", "arguments": {"city": "Phú Quốc", "max_price_per_night": 1100000}, "latency_ms": 577}}
+{"timestamp": "2026-04-07T08:49:28.081086", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1148, "latency_ms": 577, "cost_estimate": 0.011479999999999999}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:49:30.500918", "event": "DIRECT_RESPONSE", "data": {"content": "Tôi đã tìm được thông tin về chuyến bay và khách sạn cho bạn. Tuy nhiên, để tính toán tổng chi phí v..."}}
+{"timestamp": "2026-04-07T08:49:30.500918", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1524, "latency_ms": 2402, "cost_estimate": 0.01524}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:52:03.599617", "event": "DIRECT_RESPONSE", "data": {"content": "Để tìm khách sạn phù hợp, tôi cần biết thêm thông tin từ bạn. Bạn có thể cho tôi biết thành phố bạn ..."}}
+{"timestamp": "2026-04-07T08:52:03.599617", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 941, "latency_ms": 1247, "cost_estimate": 0.00941}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T08:52:32.410376", "event": "DIRECT_RESPONSE", "data": {"content": "Xin lỗi, nhưng tôi không thể giúp bạn với yêu cầu này. Tôi chỉ có thể hỗ trợ với các vấn đề liên qua..."}}
+{"timestamp": "2026-04-07T08:52:32.410376", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 969, "latency_ms": 981, "cost_estimate": 0.00969}}
+🔧 Agent quyết định gọi Tool: search_flights với tham số: {'destination': 'Phú Quốc', 'origin': 'Hà Nội'}
+{"timestamp": "2026-04-07T08:57:57.619638", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Phú Quốc", "origin": "Hà Nội"}, "latency_ms": 1194}}
+{"timestamp": "2026-04-07T08:57:57.619638", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1005, "latency_ms": 1194, "cost_estimate": 0.01005}}
+🔧 Agent quyết định gọi Tool: search_flights với tham số: {'destination': 'Phú Quốc', 'origin': 'Hà Nội'}
+{"timestamp": "2026-04-07T09:10:17.460255", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Phú Quốc", "origin": "Hà Nội"}, "latency_ms": 1026}}
+🔧 Agent quyết định gọi Tool: search_hotels với tham số: {'city': 'Phú Quốc', 'max_price_per_night': 1250000}
+{"timestamp": "2026-04-07T09:10:17.460255", "event": "TOOL_CALL", "data": {"tool": "search_hotels", "arguments": {"city": "Phú Quốc", "max_price_per_night": 1250000}, "latency_ms": 1026}}
+🔧 Agent quyết định gọi Tool: calculate_budget với tham số: {'expenses': 'vé máy bay: 2000000, khách sạn: 2500000', 'total_budget': 5000000}
+{"timestamp": "2026-04-07T09:10:17.461370", "event": "TOOL_CALL", "data": {"tool": "calculate_budget", "arguments": {"expenses": "vé máy bay: 2000000, khách sạn: 2500000", "total_budget": 5000000}, "latency_ms": 1026}}
+{"timestamp": "2026-04-07T09:10:17.461370", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1511, "latency_ms": 1026, "cost_estimate": 0.01511}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T09:10:18.651335", "event": "DIRECT_RESPONSE", "data": {"content": "Chào bạn, TravelBuddy đã thiết kế lộ trình tối ưu cho bạn:\n\n✈️ Chuyến bay: VietJet Air - 16:00 ([1.1..."}}
+{"timestamp": "2026-04-07T09:10:18.651335", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1997, "latency_ms": 1188, "cost_estimate": 0.01997}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T09:13:30.818793", "event": "DIRECT_RESPONSE", "data": {"content": "Xin chào! TravelBuddy rất vui được hỗ trợ bạn trong việc lên kế hoạch du lịch. Tuy nhiên, để có thể ..."}}
+{"timestamp": "2026-04-07T09:13:30.818793", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1568, "latency_ms": 1893, "cost_estimate": 0.01568}}
+🔧 Agent quyết định gọi Tool: search_flights với tham số: {'destination': 'Đà Nẵng', 'origin': 'Hà Nội'}
+{"timestamp": "2026-04-07T09:16:11.360460", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Đà Nẵng", "origin": "Hà Nội"}, "latency_ms": 681}}
+{"timestamp": "2026-04-07T09:16:11.360460", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1433, "latency_ms": 681, "cost_estimate": 0.01433}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T09:16:12.580933", "event": "DIRECT_RESPONSE", "data": {"content": "Tôi đã tìm thấy chuyến bay từ Hà Nội đi Đà Nẵng với các lựa chọn sau:\n- Vietnam Airlines (economy): ..."}}
+{"timestamp": "2026-04-07T09:16:12.580933", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1715, "latency_ms": 1215, "cost_estimate": 0.017150000000000002}}
+🔧 Agent quyết định gọi Tool: search_flights với tham số: {'destination': 'Phú Quốc', 'origin': 'Hà Nội'}
+{"timestamp": "2026-04-07T09:20:34.642067", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Phú Quốc", "origin": "Hà Nội"}, "latency_ms": 859}}
+🔧 Agent quyết định gọi Tool: search_flights với tham số: {'destination': 'Hà Nội', 'origin': 'Phú Quốc'}
+{"timestamp": "2026-04-07T09:20:34.642067", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Hà Nội", "origin": "Phú Quốc"}, "latency_ms": 859}}
+{"timestamp": "2026-04-07T09:20:34.647448", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1567, "latency_ms": 859, "cost_estimate": 0.01567}}
+🔧 Agent quyết định gọi Tool: search_hotels với tham số: {'city': 'Phù Quốc', 'max_price_per_night': 1400000}
+{"timestamp": "2026-04-07T09:20:35.860043", "event": "TOOL_CALL", "data": {"tool": "search_hotels", "arguments": {"city": "Phù Quốc", "max_price_per_night": 1400000}, "latency_ms": 1181}}
+🔧 Agent quyết định gọi Tool: calculate_budget với tham số: {'expenses': 'vé máy: 1100000, vé máy: 1100000, khách sàn: ', 'total_budget': 5000000}
+{"timestamp": "2026-04-07T09:20:35.875035", "event": "TOOL_CALL", "data": {"tool": "calculate_budget", "arguments": {"expenses": "vé máy: 1100000, vé máy: 1100000, khách sàn: ", "total_budget": 5000000}, "latency_ms": 1181}}
+{"timestamp": "2026-04-07T09:20:35.875035", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1969, "latency_ms": 1181, "cost_estimate": 0.019690000000000003}}
+🔧 Agent quyết định gọi Tool: search_flights với tham số: {'destination': 'Phú Quốc', 'origin': 'Hà Nội'}
+{"timestamp": "2026-04-07T09:20:37.676017", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Phú Quốc", "origin": "Hà Nội"}, "latency_ms": 1785}}
+🔧 Agent quyết định gọi Tool: search_flights với tham số: {'destination': 'Hà Nội', 'origin': 'Phú Quốc'}
+{"timestamp": "2026-04-07T09:20:37.676017", "event": "TOOL_CALL", "data": {"tool": "search_flights", "arguments": {"destination": "Hà Nội", "origin": "Phú Quốc"}, "latency_ms": 1785}}
+{"timestamp": "2026-04-07T09:20:37.678268", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 2267, "latency_ms": 1785, "cost_estimate": 0.02267}}
+🔧 Agent quyết định gọi Tool: search_hotels với tham số: {'city': 'Phú Quốc', 'max_price_per_night': 1400000}
+{"timestamp": "2026-04-07T09:20:38.214110", "event": "TOOL_CALL", "data": {"tool": "search_hotels", "arguments": {"city": "Phú Quốc", "max_price_per_night": 1400000}, "latency_ms": 534}}
+🔧 Agent quyết định gọi Tool: calculate_budget với tham số: {'expenses': 'chuyến bay đi: 1100000, chuyến bay về: 1100000', 'total_budget': 5000000}
+{"timestamp": "2026-04-07T09:20:38.214110", "event": "TOOL_CALL", "data": {"tool": "calculate_budget", "arguments": {"expenses": "chuyến bay đi: 1100000, chuyến bay về: 1100000", "total_budget": 5000000}, "latency_ms": 534}}
+{"timestamp": "2026-04-07T09:20:38.214110", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 2208, "latency_ms": 534, "cost_estimate": 0.022080000000000002}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T09:20:39.551926", "event": "DIRECT_RESPONSE", "data": {"content": "Chào bạn, TravelBuddy đã thiết kế lộ trình tối ưu cho bạn:\n\n✈️ Chuyến bay: VietJet Air (economy) - 1..."}}
+{"timestamp": "2026-04-07T09:20:39.552987", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 2612, "latency_ms": 1332, "cost_estimate": 0.02612}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T09:22:29.019574", "event": "DIRECT_RESPONSE", "data": {"content": "Để đặt khách sạn, tôi cần biết thêm thông tin về điểm đến và ngân sách của bạn. Bạn có thể cho tôi b..."}}
+{"timestamp": "2026-04-07T09:22:29.019574", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1567, "latency_ms": 1389, "cost_estimate": 0.01567}}
+💬 Agent trả lời trực tiếp cho người dùng.
+{"timestamp": "2026-04-07T09:23:36.510992", "event": "DIRECT_RESPONSE", "data": {"content": "Xin lỗi, nhưng tôi không thể giúp bạn với yêu cầu này. Tôi chỉ có thể hỗ trợ với các chức năng đã đư..."}}
+{"timestamp": "2026-04-07T09:23:36.510992", "event": "LLM_METRIC", "data": {"provider": "groq", "model": "llama-3.3-70b", "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 1562, "latency_ms": 1133, "cost_estimate": 0.01562}}
