@@ -1,7 +1,8 @@
 # 📊 Test Results - TravelBuddy Agent
 
 ---
-
+## Agent graph
+![alt text](image.png)
 ## ✅ Q1 - Direct Response Test
 ### "Xin chào! Tôi muốn đi du lịch nhưng chưa biết đi đâu"
 ### Screenshot
