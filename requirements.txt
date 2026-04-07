@@ -1,0 +1,10 @@
+openai
+google-generativeai
+python-dotenv
+pydantic
+requests
+pytest
+# llama-cpp-python>=0.2.0
+langchain
+langchain-openai
+langgraph
